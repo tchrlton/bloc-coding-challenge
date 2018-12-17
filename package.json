@@ -1,0 +1,19 @@
+{
+  "name": "bloc-coding-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "export NODE_ENV=test && jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tchrlton/bloc-coding-challenge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tchrlton/bloc-coding-challenge/issues"
+  },
+  "homepage": "https://github.com/tchrlton/bloc-coding-challenge#readme"
+}
