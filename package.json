@@ -4,7 +4,8 @@
   "description": "",
   "main": "src/server.js",
   "scripts": {
-    "test": "export NODE_ENV=test && jasmine"
+    "test": "set NODE_ENV=test && jasmine",
+    "start": "node src/server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/tchrlton/bloc-coding-challenge/issues"
   },
-  "homepage": "https://github.com/tchrlton/bloc-coding-challenge#readme"
+  "homepage": "https://github.com/tchrlton/bloc-coding-challenge#readme",
+  "devDependencies": {
+    "jasmine": "^3.3.1",
+    "request": "^2.83.0"
+  },
+  "dependencies": {
+    "dotenv": "^5.0.0",
+    "express": "^4.16.2"
+  }
 }
